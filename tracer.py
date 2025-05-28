@@ -8,7 +8,7 @@ def log_state(state):
 def tracer(frame, event, arg):
     if event == 'line':
         local_vars = frame.f_locals.copy()
-        trace_log.append({
+        state_log.append({
             'line': frame.f_lineno,
             'locals': local_vars
         })
