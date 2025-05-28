@@ -1,2 +1,2 @@
-# bfs-dfs-visualiser
+# algorithms for graphs
 Визуализация работы алгоритмов для графа
